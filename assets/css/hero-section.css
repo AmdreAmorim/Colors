@@ -1,0 +1,80 @@
+.hero {
+    background: #131313;
+
+    padding: 200px 0;
+}
+
+.hero--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero--heading {
+    font-size: 100px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.hero--heading span {
+    background: #ee0979;
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.hero--heading span:hover {
+    background: #22e5ff;
+    background: -webkit-linear-gradient(to right, #0eff56, #22e5ff);
+    background: var(--gradient4);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+
+.hero--description {
+    font-size: 60px;
+    background: #da22ff;
+    background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
+    background: linear-gradient(to right, #8f0eff, #da22ff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.hero--description:hover {
+    background: #22e5ff;
+    background: -webkit-linear-gradient(to right, #0eff56, #22e5ff);
+    background: var(--gradient4); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.highlight {
+    border-bottom: 4px solid #9114ff;
+}
+
+@media screen and (max-width: 768px) {
+    .hero--heading {
+        font-size: 60px;
+    }
+
+    .hero--description {
+        font-size: 40px;
+    }
+}

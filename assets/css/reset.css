@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --gradient1: linear-gradient(to right, #240b36, #c31432);
+    --gradient2: linear-gradient(to right, #f12711, #f5af19);
+    --gradient3: linear-gradient(to right, #ff416c, #ff4b2b);
+    --gradient4: linear-gradient(to right, #0eff56, #22e5ff);
+
+}
